@@ -1,5 +1,5 @@
 let nomeHeroi = "Ygor"
-let qntXP = 6000
+let qntXP = prompt("Por favor, digite o XP do herói: ")
 let tierPlayer
 
 if (qntXP <= 1000) {
@@ -22,4 +22,4 @@ if (qntXP <= 1000) {
     "inválido"
 }
 
-console.log("O herói de nome " + nomeHeroi + " está no nível " + tierPlayer + " . Parabéns!")
+alert("O herói de nome " + nomeHeroi + " está no nível " + tierPlayer + " . Parabéns!")
