@@ -21,3 +21,5 @@ if (qntXP <= 1000) {
 } else {
     "inválido"
 }
+
+console.log("O herói de nome " + nomeHeroi + " está no nível " + tierPlayer + " . Parabéns!")
